@@ -1,0 +1,52 @@
+@import url(../root.css);
+@import url(../reset.css);
+
+section#sec-secundary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding: 120px 0;
+
+}
+
+.sec-secundary-dupla{
+    display: flex;
+    gap: 50px;
+}
+
+.sec-secundary-solo{
+    width: 455px;
+    display: flex;
+    gap: 20px;
+}
+
+.sec-secundary-img{
+    width: 78px;
+    height: 78px;
+}
+
+.sec-secundary-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 24px;
+}
+
+a.sec-secundary-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--roxo-azulado);
+}
+
+a.sec-secundary-link:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+#btn-help{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--branco);
+    background-color: var(--roxo-azulado);
+}
+
+#btn-help > img{
+    width: 20px;
+    height: 20px;
+}

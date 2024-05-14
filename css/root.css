@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/gt-america-trial');
+
+:root{
+    /* LETRA */
+    --fonte-padrão: 'GT America Trial', sans-serif;
+    --btn-help: 15px;
+    --main-titulo: 80px;
+    --texto-size: 24px;
+    --main-link: 20px;
+    --footer-link: 16px;
+
+
+    /* CORES */
+    --branco: #fff;
+    --preto: #000;
+    --lilas-claro: #C8C0E6;
+    --roxo-azulado: #4C5FD5
+}

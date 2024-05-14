@@ -1,0 +1,62 @@
+@import url(../root.css);
+@import url(../reset.css);
+
+section#sec-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lilas-claro);
+    height: 400px; /* height tlvz temporário*/
+}
+
+#sec-first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 720px;
+}
+
+#sec-first-h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+#input-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 16px;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    background-color: var(--branco);
+}
+
+#sec-first-input{
+    width: 100%;
+    border: none;
+    font-size: 25px;
+}
+
+#sec-first-input:focus{
+    outline: none;
+}
+
+#sec-first-input::placeholder{
+    font-size: 25px;
+}
+
+#seta-pesquisa{
+    cursor: pointer;
+    font-size: 20px;
+    transition: .3s;
+}
+
+#seta:hover, #input-wrapper:hover{
+    color: var(--roxo-azulado);
+    border: 1px solid var(--roxo-azulado);
+}
+
+#seta:hover{
+    border: none;
+}

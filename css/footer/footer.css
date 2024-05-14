@@ -1,0 +1,68 @@
+@import url(../root.css);
+@import url(../reset.css);
+
+section#footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 48px 0 60px 0;
+    background-color: var(--preto);
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-titulo{
+    font-size: 24px;
+    color: var(--branco);
+}
+
+.footer-links-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links-solo{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.footer-links-solo:hover{
+    text-decoration: underline;
+}
+
+#footer-div-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 22px;
+}
+
+strong{
+    color: var(--branco);
+}
+
+#footer-last-div{
+    margin-top: 150px;
+}
+
+#footer-img{
+    width: 35px;
+    margin-bottom: 20px;
+}
+
+#footer-last-div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-paragrafo{
+    font-size: 20px;
+    color: var(--branco);
+}
