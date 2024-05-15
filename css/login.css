@@ -182,3 +182,23 @@ svg#icon-olhinho{
 #btn-signIn:hover{
     background-color: #144a75;
 }
+
+
+
+/* SECTION 3 */
+#sec3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sec3-span{
+    font-size: 13px;
+    font-weight: 300;
+    color: #49545C;
+}
+
+.sec3-links{
+    font-size: 13px;
+    color: #144a75;
+}
