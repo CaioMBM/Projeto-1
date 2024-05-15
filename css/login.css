@@ -14,7 +14,9 @@ body{
 
 #content{
     width: 800px;
-    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     border: 6px solid rgba(186, 195, 212, 0.562);
     border-radius: 7px;
     padding: 40px;
