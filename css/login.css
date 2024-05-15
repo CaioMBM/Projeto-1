@@ -1,0 +1,57 @@
+@import url(root.css);
+@import url(reset.css);
+
+body{
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#content{
+    width: 800px;
+    height: 450px;
+    border: 6px solid rgba(186, 195, 212, 0.562);
+    border-radius: 7px;
+    padding: 40px;
+    background-color: var(--branco);
+}
+
+
+
+/* SECTION 1 */
+#sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#sec1 > h2{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#sec1 > span{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#sec1-span-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--roxo-azulado);
+}
+
+#sec1-span-svg{
+    width: 8px;
+    rotate: 180deg;
+    fill: var(--roxo-azulado);
+}
