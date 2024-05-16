@@ -8,7 +8,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="../css/login.css">
 
-    <!-- teste -->
+    <!-- Ícone -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -40,12 +40,12 @@
                         <div id="campo-dupla">
                             <div class="campo-solo">
                                 <label for="ipt-email">Email</label>
-                                <input id="ipt-email" type="email" required>
+                                <input id="ipt-email" type="email">
                             </div>
                             <div class="campo-solo">
                                 <label for="ipt-senha">Password</label>
                                 <span id="span-senha">
-                                    <input id="ipt-senha" type="password" required>
+                                    <input id="ipt-senha" type="password">
                                     <span id="span-svg">
                                             <i id="icon-olhinho" class="bi bi-eye-fill" onclick="senhaOcultarEsconder()"></i>
                                         </svg>
@@ -57,10 +57,9 @@
 
                         <div id="esqueceuSenha-btnSignIn">
                             <a href="construcao.html" id="esqueceu-senha">Forgot password?</a>
-                            <button id="btn-signIn" type="submit">Sign in</button>
+                            <button id="btn-signIn" type="submit" onclick="validarEmailSenha(); return false">Sign in</button>
                         </div>
                     </form>
-
                 </div>
             </section>
 
@@ -79,6 +78,6 @@
         </div>
     </section>
 
-    <script src="/js/validacao.js"></script>
+    <script src="/js/login1.js"></script>
 </body>
 </html>
