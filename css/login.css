@@ -147,12 +147,13 @@
     outline: 3px solid #1f73b7;
 }
 
-svg#icon-olhinho{
+#icon-olhinho{
     cursor: pointer;
     width: 20px;
     margin: -30px 12px 0 0;
     float: right;
     border-left: none;
+    color: #49545C;
 }
 
 #esqueceuSenha-btnSignIn{
