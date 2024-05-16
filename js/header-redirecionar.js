@@ -7,5 +7,5 @@ btnSubmitRequest.addEventListener('click', () => {
 // Leva para página para LOGAR
 const btnSignIn = document.querySelector('#btn-sign')
 btnSignIn.addEventListener('click', () => {
-    window.open('pages/construcao.html', '_self')
+    window.open('pages/login.html', '_self')
 })
