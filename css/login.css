@@ -1,21 +1,19 @@
 @import url(root.css);
 @import url(reset.css);
 
-body{
-    background-color: black;
-}
-
 #container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 70vh;
 }
 
 #content{
     width: 800px;
-    height: 450px;
-    border: 6px solid rgba(186, 195, 212, 0.562);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
     padding: 40px;
     background-color: var(--branco);
