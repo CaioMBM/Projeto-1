@@ -35,3 +35,78 @@
     margin-bottom: 20px;
     color: #49545c;
 }
+
+
+
+/* Parte 2 */
+#campo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo-solo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-solo > label{
+    font-size: 13px;
+    color: rgb(44, 41, 41);
+}
+
+#ipt-email{
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#span-senha{
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ipt-senha{
+    border: none;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#ipt-email:hover{
+    border: 1px solid #1f73b7;
+}
+
+#ipt-email:focus{
+    outline: 3px solid #1f73b7;
+}
+
+#btn-submit{
+    cursor: pointer;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--branco);
+    background-color: #1f73b7;
+    transition: .3s;
+}
+
+#btn-submit:hover{
+    background-color: #144a75;
+}
+
+#link-cancel{
+    text-align: right;
+    text-decoration: none;
+    font-size: 13px;
+    color: #68737D;
+}
+
+#link-cancel:hover{
+    text-decoration: underline;
+}
