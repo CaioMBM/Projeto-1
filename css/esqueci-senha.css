@@ -1,0 +1,37 @@
+@import url(css/root.css);
+@import url(/css/reset.css);
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#content{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    background-color: var(--branco);
+}
+
+
+
+/* Parte 1 */
+#parte1 h2{
+    font-size: 16px;
+    font-weight: inherit;
+    margin-bottom: 25px;
+    color: #333333;
+}
+
+#parte1 p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: inherit;
+    margin-bottom: 20px;
+    color: #49545c;
+}
