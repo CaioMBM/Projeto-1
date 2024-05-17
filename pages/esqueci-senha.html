@@ -11,6 +11,9 @@
 <body>
     <section id="container">
         <div id="content">
+            <!-- Modal email inválido -->
+            <span id="email-invalido">Please provide a valid email address</span>
+
             <!-- Parte 1 da #content -->
             <div id="parte1">
                 <h2>Please set me up with a new password</h2>
@@ -27,11 +30,11 @@
                         <!-- Caixa do Email (label+input) -->
                         <div class="campo-solo">
                             <label for="ipt-email">Email *</label>
-                            <input id="ipt-email" type="email" required>
+                            <input id="ipt-email" type="email" >
                         </div>
 
                         <!-- Botão para enviar -->
-                        <button id="btn-submit" type="submit">Submit</button>
+                        <button id="btn-submit" type="submit" onclick="validarEmail(); return false">Submit</button>
 
                         <a href="login1.html" id="link-cancel">Cancel</a>
                     </div>
@@ -39,5 +42,7 @@
             </div>
         </div>
     </section>
+
+    <script src="/js/tela-esqueci-senha.js"></script>
 </body>
 </html>

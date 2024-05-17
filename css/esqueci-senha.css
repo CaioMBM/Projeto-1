@@ -18,6 +18,16 @@
     background-color: var(--branco);
 }
 
+/* Modal */
+#email-invalido{
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: inherit;
+    color: #49545c;
+    background-color: #ffeded;
+}
 
 
 /* Parte 1 */
