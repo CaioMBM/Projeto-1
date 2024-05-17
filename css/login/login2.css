@@ -52,3 +52,98 @@
     rotate: 180deg;
     fill: var(--roxo-azulado);
 }
+
+
+
+/* SECTION 2 */
+#sec2{
+    display: flex;
+    gap: 35px;
+}
+
+#login-EmailSenha{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#campo-dupla{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo-solo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-solo > label{
+    font-size: 13px;
+    color: rgb(44, 41, 41);
+}
+
+#ipt-email{
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#span-senha{
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ipt-senha{
+    border: none;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#ipt-email:hover, #ipt-senha:hover{
+    border: 1px solid #1f73b7;
+}
+
+#ipt-email:focus, #ipt-senha:focus{
+    outline: 3px solid #1f73b7;
+}
+
+#icon-olhinho{
+    cursor: pointer;
+    width: 20px;
+    margin: -30px 12px 0 0;
+    float: right;
+    border-left: none;
+    color: #49545C;
+}
+
+#esqueceuSenha-btnSignIn{
+    display: flex;
+    flex-direction: column;
+}
+
+#esqueceu-senha{
+    margin: 10px 0 20px 0;
+    font-size: 13px;
+    color: var(--links-login);
+}
+
+#btn-signIn{
+    cursor: pointer;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--branco);
+    background-color: #1f73b7;
+    transition: .3s;
+}
+
+#btn-signIn:hover{
+    background-color: #144a75;
+}
