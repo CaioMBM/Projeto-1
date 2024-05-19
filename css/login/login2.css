@@ -1,6 +1,10 @@
 @import url(css/root.css);
 @import url(/css/reset.css);
 
+*{
+    font-family: var(--fonte-login);
+}
+
 #container{
     display: flex;
     justify-content: center;
@@ -31,7 +35,7 @@
 #sec1 > h2{
     display: flex;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: inherit;
 }
 
 #sec1 > span{
@@ -43,7 +47,6 @@
 #sec1-span-link{
     text-decoration: none;
     font-size: 14px;
-    font-weight: 300;
     color: var(--roxo-azulado);
 }
 
@@ -81,6 +84,7 @@
 
 .campo-solo > label{
     font-size: 13px;
+    font-weight: 500;
     color: rgb(44, 41, 41);
 }
 
@@ -139,6 +143,7 @@
     border: none;
     border-radius: 4px;
     font-size: 14px;
+    font-weight: 500;
     color: var(--branco);
     background-color: #1f73b7;
     transition: .3s;

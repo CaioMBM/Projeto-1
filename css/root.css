@@ -3,6 +3,7 @@
 :root{
     /* LETRA */
     --fonte-padrão: 'GT America Trial', sans-serif;
+    --fonte-login: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
     --btn-help: 15px;
     --main-titulo: 80px;
     --texto-size: 24px;
