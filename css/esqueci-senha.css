@@ -1,6 +1,10 @@
 @import url(css/root.css);
 @import url(/css/reset.css);
 
+*{
+    font-family: var(--fonte-login);;
+}
+
 #container{
     display: flex;
     justify-content: center;
@@ -63,25 +67,11 @@
 
 .campo-solo > label{
     font-size: 13px;
+    font-weight: 600;
     color: rgb(44, 41, 41);
 }
 
 #ipt-email{
-    border: 1px solid rgb(133, 133, 133);
-    border-radius: 4px;
-    padding: 12px;
-}
-
-#span-senha{
-    height: 42px;
-    display: flex;
-    flex-direction: column;
-}
-
-#ipt-senha{
-    border: none;
-    border-right: none;
-    border-radius: 4px 0 0 4px;
     border: 1px solid rgb(133, 133, 133);
     border-radius: 4px;
     padding: 12px;
@@ -101,6 +91,7 @@
     border: none;
     border-radius: 4px;
     font-size: 14px;
+    font-weight: 500;
     color: var(--branco);
     background-color: #1f73b7;
     transition: .3s;
