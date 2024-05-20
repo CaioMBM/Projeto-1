@@ -1,0 +1,94 @@
+@import url(../root.css);
+@import url(../reset.css);
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    background-color: var(--preto);
+}
+
+/* Parte 1 */
+header > section{
+    height: 33px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+#logo-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+#logo-span{
+    font-size: var(--texto-size);
+    color: var(--branco);
+}
+
+div#linha-vert{
+    width: 2px;
+    height: 100%;
+    background-color: var(--branco);
+}
+
+#help-link{
+    text-decoration: none;
+    font-size: var(--texto-size);
+    color: var(--branco);
+}
+
+#help-link:hover{
+    text-decoration: underline;
+}
+
+/* Parte 2 */
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+#ipt-search{
+    width: 265px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 20px 10px 16px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#btn-submit{
+    cursor: pointer;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 1px solid var(--branco);
+    font-size: var(--texto-size);
+    color: var(--branco);
+    background-color: var(--preto);
+}
+
+#btn-sign{
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 8px;
+    transition: .3s;
+    border: none;
+    font-size: var(--texto-size);
+    color: var(--branco);
+    background-color: var(--roxo-azulado);
+}
+
+#btn-sign:hover{
+    color: var(--preto);
+    background-color: var(--branco);
+}
