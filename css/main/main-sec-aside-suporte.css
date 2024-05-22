@@ -1,0 +1,33 @@
+@import url(../root.css);
+@import url(../reset.css);
+
+
+#section-aside{
+    padding: 90px 90px 0;
+}
+
+.caixa-amarela{
+    width: 625px;
+    display: flex;
+    gap: 20px;
+    margin: 32px 0;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 20px;
+    background-color: #FFE496;
+}
+
+.paragrado{
+    font-size: 20px;
+}
+
+#link-form{
+    font-size: 20px;
+    color: var(--preto);
+    transition: .3s;
+}
+
+
+#link-form:hover{
+    opacity: .8;
+}
