@@ -67,7 +67,7 @@ nav{
     font-size: 20px;
 }
 
-#btn-submit{
+#suporte-btn-submit{
     cursor: pointer;
     padding: 6px 22px;
     border-radius: 5px;
@@ -77,7 +77,7 @@ nav{
     background-color: var(--preto);
 }
 
-#btn-sign{
+#suporte-btn-sign{
     cursor: pointer;
     padding: 10px 32px;
     border-radius: 8px;
