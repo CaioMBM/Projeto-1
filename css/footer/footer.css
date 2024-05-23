@@ -4,7 +4,7 @@
 section#footer-container{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
     padding: 48px 0 60px 0;
     background-color: var(--preto);
 }
