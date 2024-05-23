@@ -2,9 +2,7 @@
     position: fixed;
     right: 15px;
     bottom: 15px;
-
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +16,7 @@
     background-color: var(--roxo-azulado);
 }
 
-#btn-help > img{
+#btn-help > svg{
     width: 20px;
     height: 20px;
 }

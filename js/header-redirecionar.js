@@ -2,7 +2,7 @@
 // Leva para página do SUBMIT
 const btnSubmitRequest = document.querySelector('#btn-submit')
 btnSubmitRequest.addEventListener('click', () => {
-    window.open('pages/construcao.html', '_self')
+    window.open('pages/suporte.html', '_self')
 })
 
 // Leva para página para LOGAR
@@ -16,13 +16,9 @@ btnSignIn.addEventListener('click', () => {
 // Leva para página do SUBMIT
 function buttonSubmitRequest(){
     location.href = 'suporte.html'
-    
-    console.log('clicou submit')
 }
 
 // Leva para página para LOGAR
 function buttonSignIn(){
     location.href = 'login1.html'
-    
-    console.log('clicou login')
 }
