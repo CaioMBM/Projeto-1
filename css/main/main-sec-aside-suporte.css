@@ -24,14 +24,14 @@
     font-size: 20px;
 }
 
-#link-form{
+.main-link{
     font-size: 20px;
     color: var(--preto);
     transition: .3s;
 }
 
 
-#link-form:hover{
+.main-link:hover{
     opacity: .8;
 }
 
@@ -56,7 +56,7 @@ li{
     margin-bottom: 20px !important; 
 }
 
-#contact-suporte-lista ul{
+#div2-ul{
     list-style-type: circle;
     margin: 16px 0 20px 40px;
 }
@@ -65,4 +65,12 @@ li{
     margin: 0 5px;
     font-size: 15px;
     color: gray;
+}
+
+#div3-ul{
+    margin: 20px 0 20px 80px;
+}
+
+#div3-ul li{
+    margin-bottom: 10px;
 }
