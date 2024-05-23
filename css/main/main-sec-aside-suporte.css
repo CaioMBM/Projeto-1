@@ -3,7 +3,8 @@
 
 
 #section-aside{
-    padding: 90px 90px 0;
+    margin-bottom: calc(20px* 1.5* 2);
+    padding: 90px 90px 16px 90px;
 }
 
 #section{
@@ -21,6 +22,7 @@
 }
 
 .paragrafo{
+    margin-bottom: 20px;
     font-size: 20px;
 }
 
@@ -73,4 +75,9 @@ li{
 
 #div3-ul li{
     margin-bottom: 10px;
+}
+
+footer{
+    height: 40px;
+    background-color: #000;
 }
