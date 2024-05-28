@@ -42,6 +42,10 @@
     color: var(--preto2);
 }
 
+.content-ul-link:hover{
+    text-decoration: underline;
+}
+
 .link-expandir{
     font-size: 20px;
     text-decoration: none;
