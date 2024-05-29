@@ -7,18 +7,17 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 90px 30px;
+    padding: 90px 90px;
 }
 
 .dupla{
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .content{
     width: 45%;
-    height: 474px;
 }
 
 .content-h3{
@@ -54,4 +53,16 @@
 
 .link-expandir:hover{
     text-decoration: underline;
+}
+
+.topicos{
+    padding-left: 32px;
+}
+
+.topicos-h3{
+    margin: 48px 0 16px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--preto2);
 }
