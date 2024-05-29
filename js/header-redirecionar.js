@@ -12,7 +12,7 @@ btnSignIn.addEventListener('click', () => {
 })
 
 
-// TELA - suporte.html
+// TELA - suporte.html, learn-more.html
 // Leva para página do SUBMIT
 function buttonSubmitRequest(){
     location.href = 'suporte.html'
