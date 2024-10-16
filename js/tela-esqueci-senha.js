@@ -1,6 +1,6 @@
 // Ao clicar no submit - VALIDAR
 function validarEmail(){
-    var email = document.getElementById('ipt-email').value
+    var email                = document.getElementById('ipt-email').value
     const modalEmailInvalido = document.getElementById('email-invalido')
     
     // Email válido
